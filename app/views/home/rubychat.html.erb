@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        
+        <title>Chat Client</title>
+        
+        <%= stylesheet_link_tag "rubychat" %>
+        
+        <%= javascript_include_tag "http://code.jquery.com/jquery-latest.min.js",  "jquery.tinyscrollbar.min.js" %>
+        
+        <script type="text/javascript">
+          $(document).ready(function(){
+            $('#chatlog').tinyscrollbar({size: 'auto'});
+            $('#userlist').tinyscrollbar({axis: 'y'});
+          });
+        </script>
+        
+        <script type="text/javascript">
+          $(document).ready(function() {
+            var websocket = new WebSocket('ws://127.0.0.1:8080');
+
+            websocket.onmessage = function(event) {
+              var key = event.data.substring(0,1);
+              var msg = event.data.substring(1);
+              switch(key) {
+                case 'c':
+                  $('#chatlogOverview ul').append('<li>' + msg + '</li>');
+                  $('#chatlog').tinyscrollbar_update('bottom');
+                  break;
+                case 'a':
+                  $('#userlistOverview ul').append('<li>' + msg + '</li>');
+                  $('#userlist').tinyscrollbar_update('relative');
+                  break;
+                case 'r':
+                  $('#userlistOverview ul').empty();
+                  break;
+                default:
+                  console.log("error: message without key");
+              }
+            }
+
+            $('#entry').keypress(function(event) {
+              if(event.keyCode == 13) {
+                var msg = $('#entry').val();
+                if(msg) {
+                  websocket.send(msg);
+                  $('#entry').prop('value', '');
+                  $('#entry').focus();
+                }
+              }
+            });
+          });
+
+        </script>
+        
+    </head> 
+    <body>
+      <div id="container">
+
+        <div id="header">
+          <h1>Purple Chat</h1>
+        </div> <!-- /header -->
+
+        <div class="mainpane" style="">
+          
+          <div class="videopane" style="">
+          <!--<video id="MediaStreamVideo" autoplay=""></video>-->
+            <%# video viewer: insert videos here %>
+            <% %>
+          </div> <!-- /videopane -->
+          
+          <div class="chatpane" style="">
+            <div id="chatlog">
+              <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+              <div class="viewport">
+                <div class="overview" id="chatlogOverview">
+                <ul>
+                </ul>  
+                </div> <!-- /overview -->
+                
+              </div> <!-- /viewport -->
+            </div> <!-- /chatlog -->
+            
+            <div class="enterchat">
+              <input id="entry" class="InputBox" type="text" value="" style="border: none" autocomplete="off"/>
+            </div> <!-- /enterchat -->
+            
+            <div id="userlist" style=""> 
+              <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+              <div class="viewport">
+                <div class="overview" id="userlistOverview">
+                <ul>
+                </ul>
+                </div> <!-- /overview -->
+              </div> <!-- /viewport -->
+            </div> <!-- /userlist -->
+          
+          </div> <!-- /chatpane -->
+        
+        </div> <!-- /mainpane -->
+
+        <div id="footer">
+          <div class="innermargin">
+          Made with Ruby on Rails 3.2.12, AJAX, jQuery, and HTML5   
+          </div> <!-- innermargin -->
+        </div> <!-- /footer -->
+
+      </div> <!-- /container  -->
+      <!--
+      <script>
+        var stream;
+        var video = document.getElementById('MediaStreamVideo');
+
+        navigator.webkitGetUserMedia(
+          {video: true, audio: true}, // Options
+          function(localMediaStream) { // Success
+            stream = localMediaStream;
+            video.src = window.webkitURL.createObjectURL(stream);
+          },
+          function(err) { // Failure
+            alert('getUserMedia failed: Code ' + err.code);
+          }
+        );
+      </script>
+      -->
+    </body>
+</html>
