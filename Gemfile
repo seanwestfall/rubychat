@@ -8,6 +8,7 @@ gem 'thin'
 gem 'em-websocket'
 gem 'em_aws'
 gem 'capistrano'
+gem 'capify-ec2'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
