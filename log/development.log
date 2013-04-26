@@ -3050,3 +3050,239 @@ Served asset /bg-scrollbar-trackend-y.png - 304 Not Modified (3ms)
 
 Started GET "/assets/bg-scrollbar-thumb-y.png" for 127.0.0.1 at Thu Mar 07 22:01:22 -0800 2013
 Served asset /bg-scrollbar-thumb-y.png - 304 Not Modified (15ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 15:56:39 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#rubychat as HTML
+  Rendered home/rubychat.html.erb within layouts/application (200.1ms)
+Compiled jquery.js  (6ms)  (pid 3065)
+Compiled jquery_ujs.js  (0ms)  (pid 3065)
+Compiled application.js  (164ms)  (pid 3065)
+Completed 200 OK in 605ms (Views: 604.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-18 15:56:41 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/webrtc.js?body=1" for 127.0.0.1 at 2013-03-18 15:56:41 -0700
+Served asset /webrtc.js - 200 OK (1ms)
+
+
+Started GET "/assets/rubychat.css?body=1" for 127.0.0.1 at 2013-03-18 15:56:41 -0700
+Served asset /rubychat.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-18 15:56:41 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-18 15:56:41 -0700
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-18 15:56:41 -0700
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.tinyscrollbar.min.js?body=1" for 127.0.0.1 at 2013-03-18 15:56:41 -0700
+Served asset /jquery.tinyscrollbar.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bg-scrollbar-track-y.png" for 127.0.0.1 at 2013-03-18 15:56:41 -0700
+Served asset /bg-scrollbar-track-y.png - 304 Not Modified (41ms)
+
+
+Started GET "/assets/bg-scrollbar-trackend-y.png" for 127.0.0.1 at 2013-03-18 15:56:41 -0700
+Served asset /bg-scrollbar-trackend-y.png - 304 Not Modified (16ms)
+
+
+Started GET "/assets/bg-scrollbar-thumb-y.png" for 127.0.0.1 at 2013-03-18 15:56:41 -0700
+Served asset /bg-scrollbar-thumb-y.png - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 14:28:03 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#rubychat as HTML
+  Rendered home/rubychat.html.erb within layouts/application (169.8ms)
+Completed 200 OK in 508ms (Views: 508.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/webrtc.js?body=1" for 127.0.0.1 at 2013-03-27 14:28:04 -0700
+Served asset /webrtc.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-27 14:28:04 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/rubychat.css?body=1" for 127.0.0.1 at 2013-03-27 14:28:04 -0700
+Served asset /rubychat.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-27 14:28:04 -0700
+Served asset /jquery.js - 304 Not Modified (79ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-27 14:28:04 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.tinyscrollbar.min.js?body=1" for 127.0.0.1 at 2013-03-27 14:28:04 -0700
+Served asset /jquery.tinyscrollbar.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-27 14:28:04 -0700
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/bg-scrollbar-track-y.png" for 127.0.0.1 at 2013-03-27 14:28:04 -0700
+Served asset /bg-scrollbar-track-y.png - 304 Not Modified (30ms)
+
+
+Started GET "/assets/bg-scrollbar-trackend-y.png" for 127.0.0.1 at 2013-03-27 14:28:04 -0700
+Served asset /bg-scrollbar-trackend-y.png - 304 Not Modified (37ms)
+
+
+Started GET "/assets/bg-scrollbar-thumb-y.png" for 127.0.0.1 at 2013-03-27 14:28:04 -0700
+Served asset /bg-scrollbar-thumb-y.png - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 14:28:21 -0700
+Processing by HomeController#rubychat as HTML
+  Rendered home/rubychat.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-27 14:28:21 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rubychat.css?body=1" for 127.0.0.1 at 2013-03-27 14:28:21 -0700
+Served asset /rubychat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-27 14:28:21 -0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-27 14:28:21 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.tinyscrollbar.min.js?body=1" for 127.0.0.1 at 2013-03-27 14:28:21 -0700
+Served asset /jquery.tinyscrollbar.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/webrtc.js?body=1" for 127.0.0.1 at 2013-03-27 14:28:21 -0700
+Served asset /webrtc.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-27 14:28:21 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bg-scrollbar-track-y.png" for 127.0.0.1 at 2013-03-27 14:28:21 -0700
+Served asset /bg-scrollbar-track-y.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg-scrollbar-trackend-y.png" for 127.0.0.1 at 2013-03-27 14:28:21 -0700
+Served asset /bg-scrollbar-trackend-y.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg-scrollbar-thumb-y.png" for 127.0.0.1 at 2013-03-27 14:28:21 -0700
+Served asset /bg-scrollbar-thumb-y.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-25 20:21:11 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#rubychat as HTML
+  Rendered home/rubychat.html.erb within layouts/application (170.1ms)
+Completed 200 OK in 514ms (Views: 513.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-25 20:21:13 -0700
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/rubychat.css?body=1" for 127.0.0.1 at 2013-04-25 20:21:13 -0700
+Served asset /rubychat.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-25 20:21:13 -0700
+Served asset /jquery.js - 200 OK (54ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-25 20:21:13 -0700
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.tinyscrollbar.min.js?body=1" for 127.0.0.1 at 2013-04-25 20:21:13 -0700
+Served asset /jquery.tinyscrollbar.min.js - 200 OK (2ms)
+
+
+Started GET "/assets/webrtc.js?body=1" for 127.0.0.1 at 2013-04-25 20:21:13 -0700
+Served asset /webrtc.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-25 20:21:13 -0700
+Served asset /application.js - 200 OK (13ms)
+
+
+Started GET "/assets/bg-scrollbar-track-y.png" for 127.0.0.1 at 2013-04-25 20:21:13 -0700
+Served asset /bg-scrollbar-track-y.png - 200 OK (67ms)
+
+
+Started GET "/assets/bg-scrollbar-trackend-y.png" for 127.0.0.1 at 2013-04-25 20:21:13 -0700
+Served asset /bg-scrollbar-trackend-y.png - 200 OK (21ms)
+
+
+Started GET "/assets/bg-scrollbar-thumb-y.png" for 127.0.0.1 at 2013-04-25 20:21:13 -0700
+Served asset /bg-scrollbar-thumb-y.png - 200 OK (4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-25 20:21:27 -0700
+Processing by HomeController#rubychat as HTML
+  Rendered home/rubychat.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-25 20:21:27 -0700
+Served asset /application.css - 304 Not Modified (94ms)
+
+
+Started GET "/assets/rubychat.css?body=1" for 127.0.0.1 at 2013-04-25 20:21:27 -0700
+Served asset /rubychat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.tinyscrollbar.min.js?body=1" for 127.0.0.1 at 2013-04-25 20:21:27 -0700
+Served asset /jquery.tinyscrollbar.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-25 20:21:27 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-25 20:21:27 -0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/webrtc.js?body=1" for 127.0.0.1 at 2013-04-25 20:21:27 -0700
+Served asset /webrtc.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-25 20:21:27 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bg-scrollbar-track-y.png" for 127.0.0.1 at 2013-04-25 20:21:27 -0700
+Served asset /bg-scrollbar-track-y.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg-scrollbar-trackend-y.png" for 127.0.0.1 at 2013-04-25 20:21:27 -0700
+Served asset /bg-scrollbar-trackend-y.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg-scrollbar-thumb-y.png" for 127.0.0.1 at 2013-04-25 20:21:27 -0700
+Served asset /bg-scrollbar-thumb-y.png - 304 Not Modified (0ms)

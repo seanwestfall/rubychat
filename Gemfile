@@ -6,6 +6,7 @@ gem 'json'
 gem 'jquery-rails'
 gem 'thin'
 gem 'em-websocket'
+gem 'em_aws'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
