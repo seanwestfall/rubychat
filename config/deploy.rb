@@ -1,6 +1,7 @@
 set :application, "rubychat"
 set :repository,  "git@github.com:alphonse23/rubychat.git"
 set :scm, :git
+set :user, "webuser"
 
 # set :deploy_to, ""
 
